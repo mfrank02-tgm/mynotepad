@@ -18,9 +18,9 @@ sudo dnf install docker-ce docker-ce-cli containerd.io
 Basic and Useful Commands:
 
 ```bash
+docker search <name>
 docker ps -a
 docker ps
-docker ls
 docker run <name>
 docker exec -t -i <name> bash
 
